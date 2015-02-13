@@ -1,0 +1,374 @@
+[class*="span"] {
+    float: left;
+    margin-left: 20px;
+	margin-right: 0;
+}
+
+h2{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+	color: #0063AF;
+	font-size: 30px;
+}
+
+h4{
+	text-align: center;
+	color: #0063AF;
+	font-size: 60px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+a:hover,
+a:focus {
+  color: #ffffff;
+  background-color: #0063AF;
+  text-decoration: none;
+  outline:0;
+}
+
+a {
+  color: #0063AF;
+}
+
+footer {
+  text-align:center;
+  padding: 4px;
+}
+
+.hero-unit {
+  padding: 30px;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  color:#ffffff;
+  background-color:#0063AF;
+  -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
+}
+
+.line
+{
+	width: 50%;
+}
+
+.border
+{
+  border: 1px solid #0063AF;
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+  padding: 20px;
+  margin-left: -10px;
+  color: #000000;
+}
+
+.border-article
+{
+  border: 1px solid #0063AF;
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+  padding: 20px;
+  margin-left: -35px;
+  margin-bottom: -30px;
+  color: #000000;
+}
+
+.centre{
+	text-align: center;
+}
+
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: top;
+  border-top: 4px solid #000000;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  content: "";
+}
+
+a:focus .caret,
+a:hover .caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: top;
+  border-top: 4px solid #ffffff;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  content: "";
+}
+
+.btn-primary{
+	background-color: #0063AF;
+}
+
+.coloration {
+	color: #0063AF;
+}
+
+.photo {
+	float: right;
+	width: 20%;
+}
+
+.fieldset{
+    min-width: 200px; 
+    margin: auto; 
+    text-align: center;
+    padding: 0;
+	border-color: #0063AF;
+}
+
+legend{
+	color: #0063AF;
+}
+
+/* --------------------- nav-tabs --------------------- */
+
+.navbar .nav > li > a {
+  float: none;
+  padding: 10px 36.92px 10px; /*Largeur des links*/
+  color: #000000; /*Couleur des links*/
+  background-color: #ffffff; /*Couleur du background des links*/
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ffffff;
+  margin-bottom: 10px;
+}
+
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  color: #ffffff; /*Couleur des links avec la souris dessus*/
+  text-decoration: none;
+  background-color: #0063AF; /*Couleur du background des links avec la souris dessus*/
+  border-color: #0063AF; /*Couleur da la bordure des links avec la souris dessus*/
+}
+
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+  color: #ffffff; /*Couleur du background des links après clic*/
+  background-color: #0063AF; /*Couleur du background des links après clic*/
+}
+
+/*Couleur du triangle de la navbar*/
+.navbar .nav li.dropdown > .dropdown-toggle .caret {
+  border-top-color: #000000;
+  border-bottom-color: #000000;
+}
+
+/*Couleur du triangle de la navbar avec la souris dessus*/
+.navbar .nav li.dropdown > a:hover .caret,
+.navbar .nav li.dropdown > a:focus .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+/*Couleur du triangle de la navbar après clic*/
+.navbar .nav li.dropdown.open > .dropdown-toggle .caret,
+.navbar .nav li.dropdown.active > .dropdown-toggle .caret,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+
+.nav-tabs.nav-stacked > li > a {
+  border: 1px solid #0063AF; /*Couleur de la bordure des éléments de nav-tabs nav-stacked*/
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
+
+.nav-tabs.nav-stacked > li:first-child > a {
+  -webkit-border-top-right-radius: 0;
+          border-top-right-radius: 0;
+  -webkit-border-top-left-radius: 0;
+          border-top-left-radius: 0;
+  -webkit-border-bottom-left-radius: 8px;
+          border-bottom-left-radius: 8px;
+  -moz-border-radius-topright: 0;
+  -moz-border-radius-topleft: 0;
+  -moz-border-radius-bottomleft: 8px;
+}
+
+.nav-tabs.nav-stacked > li:last-child > a {
+  -webkit-border-bottom-right-radius: 8px;
+          border-bottom-right-radius: 8px;
+  -webkit-border-bottom-left-radius: 0;
+          border-bottom-left-radius: 0;
+  -moz-border-radius-bottomright: 8px;
+  -moz-border-radius-bottomleft: 0;
+}
+
+/* --------------------- nav-pills --------------------- */
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #0063AF;
+}
+
+.nav-pills {
+  *zoom: 1;
+  margin: 0; 
+}
+
+.nav-pills > li > a {
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: 0;
+  line-height: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 0; /*Ecart entre les boutons*/
+  margin-bottom: 0;
+  border: 1px solid #0063AF;
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.nav-pills.nav-stacked > li > a {
+  margin: 0;
+}
+
+.nav-pills.nav-stacked > li > a:focus,
+.nav-pills.nav-stacked > li > a:hover {
+  margin: 0;
+  color: #ffffff;
+  border: 1px solid #0063AF;
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+}
+
+.nav-pills.nav-stacked > li:last-child > a {
+  margin: 0;
+}
+
+/* --------------------- accordion --------------------- */
+
+.accordion-group {
+  border: 0px solid #e5e5e5;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+  margin: 0;
+}
+
+.accordion-heading {
+  border-bottom: 0;
+}
+
+.accordion-toggle {
+  display: block;
+  padding: 0;
+  border: 1px solid #0063AF;
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
+
+.accordion-inner {
+  margin-left: 40px;
+  padding: 0;
+  border: 0 solid #0063AF;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+  margin-right: 0;
+}
+
+/* --------------------- dropdown --------------------- */
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 0 0 0;
+  list-style: none;
+  background-color: #ffffff;
+  border: 1px solid #0063AF;
+}
+
+.dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 20px;
+  color: #000000;
+  white-space: nowrap;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+/* --------------------- Supressions d'éléments --------------------- */
+
+.navbar-inner {
+  min-height: 40px;
+  padding-right: 0px;
+  padding-left: 0px;
+  background-color: #fafafa;
+  background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+  background-repeat: repeat-x;
+  border: 0 solid #0063AF; /*Couleur de la bordure de la navbar*/
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+  *zoom: 1;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+}
+
+/*Arrondit de la navbar*/
+.navbar-static-top .navbar-inner {
+  -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
+}
+
+/*Bordure de la navbar*/
+.navbar-fixed-top .navbar-inner,
+.navbar-static-top .navbar-inner {
+  border-width: 0 0 0;
+}
+
+
